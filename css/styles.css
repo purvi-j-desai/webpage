@@ -1,0 +1,117 @@
+body 
+{
+	margin:0% 20% 0% 20%; 
+	background-image:url('../images/bkg.jpg');
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-color:black;
+	color:white;
+	text-align:justify;
+}
+
+#name-logo
+{
+ 	float:right;
+	height:70px;
+}
+#name-heading{
+	float:right;
+	
+}
+
+.heading
+{
+	color:#CCCC33;
+}
+.clear-floating
+{
+	clear:both;
+}
+
+#navigation-links
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	
+}
+.navigation-link 
+{
+	text-align:center;	
+	float:left;
+	width:33.3%;
+	
+}
+
+a:link , a:visited
+{
+	
+	color:white;
+	
+}
+.navigation-link a:link,.navigation-link a:visited
+{
+	display:block;
+	font-weight:bold;
+	padding:3px;
+	text-decoration:none;
+	background-color:rgba(0, 0, 0, 0.5);
+	
+}
+.navigation-link a:hover,.navigation-link a:active
+{
+	
+	background-color:#000000;
+	color:#CCCC33;
+}
+p
+{
+	text-indent:1cm;
+	font-size:14px;
+}
+#aboutme
+{	
+	
+	margin-top:70px;
+	height:50%;
+	padding:20px;
+	background: rgba(0, 0, 0, 0.5);	
+}
+#projects
+{
+	margin-top:70px;
+	padding:0px 10px 10px 10px;
+	background: rgba(0, 0, 0, 0.5);	
+}
+#under-grad-courses
+{
+	
+	margin-top:70px;
+	padding:0px 10px 10px 10px;
+	background: rgba(0, 0, 0, 0.5);	
+}
+
+#acad-record
+{
+	margin-top:20px;
+	padding:0px 10px 10px 10px;
+	background: rgba(0, 0, 0, 0.5);	
+}
+#record
+{
+	border:1px solid;	
+	border-collapse:collapse;
+	width:100%;
+}
+#my-pic
+{
+	float:left;
+	padding-right:10px;	
+}
+
+#contact
+{
+	margin-top:70px;
+	padding:10px 10px 10px 10px;
+	background: rgba(0, 0, 0, 0.5);	
+}
